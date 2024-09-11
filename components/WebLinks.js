@@ -151,6 +151,18 @@ const Links = () => {
                           )
                         })
                       }
+                      {/* BioData.js > newProduct == true */}
+                      {/* New Section will render once newProduct == true */}
+                      {(freelance) ? <NewSection>
+                        <a href={freelanceUrl} target="_blank" rel="noreferrer">
+                          <img
+                              src={'/freelance.png'}
+                              className="newproduct"
+                          />
+                        </a>
+                      </NewSection> : ''
+                      }
+                      {/* End Biodata.js, You can move this section anywhere */}
                     </LinkSection> : ''
               }
               {/* End featured Section */}
@@ -171,28 +183,18 @@ const Links = () => {
                           )
                         })
                       }
+                      
                     </LinkSection>
                     : ''
               }
               {/* End NFT Section */}
 
               {/* Other Section */}
+              
               {
                 others.length > 0 ?
                     <LinkSection>
                       <h3>{others[0].type}</h3>
-                      {/* BioData.js > newProduct == true */}
-                      {/* New Section will render once newProduct == true */}
-                      {(freelance) ? <NewSection>
-                        <a href={freelanceUrl} target="_blank" rel="noreferrer">
-                          <img
-                              src={'/freelance.png'}
-                              className="newproduct"
-                          />
-                        </a>
-                      </NewSection> : ''
-                      }
-                      {/* End Biodata.js, You can move this section anywhere */}
                       {
                         others.map((i) => {
                           return (

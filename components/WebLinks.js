@@ -1,6 +1,4 @@
 // Weblinks Page Sections
-// created by @realvjy
-// date: 29 Jul, 2022
 
 import Image from "next/image";
 import styled from "styled-components";

@@ -10,7 +10,7 @@ import bioData from "../data/BioData";
 
 import { Analytics } from "@vercel/analytics/react";
 
-
+import AnalyticsGA from "./Analytics";
 
 const Links = () => {
 
@@ -221,12 +221,15 @@ const Links = () => {
 
         </LinkContainer>
         <Analytics/>
+        <AnalyticsGA/>
       </LinkWrapper>
 
   )
 };
 
 export default Links;
+
+
 
 const LinkWrapper = styled(Container)`
 `

@@ -8,6 +8,8 @@ import { ChevronRightIcon, HexIcon, HomeIcon, TwitterIcon, NewUp, OvalIcon } fro
 import allLinks from "../data/LinksData";
 import bioData from "../data/BioData";
 
+import { Analytics } from "@vercel/analytics/react";
+
 
 
 const Links = () => {
@@ -41,7 +43,7 @@ const Links = () => {
   const freelance = bioData[0].freelance
   const freelanceUrl = bioData[0].freelanceUrl;
 
-
+  
 
   // Collect all links filter by type - social, project, nft and other etc=
   // get data for social section
@@ -218,6 +220,7 @@ const Links = () => {
           </BottomPart>
 
         </LinkContainer>
+        <Analytics/>
       </LinkWrapper>
 
   )

@@ -3,7 +3,7 @@ const bioData = [
     {
         name: '@vincentwidyan',
         username: '',
-        url: 'https://nxtlnk.vercel.app',
+        url: 'https://vincentwidyan-linkinbio.vercel.app',
         titleImg: false,
         avatar: '/avatar.png',
         nftAvatar: false,

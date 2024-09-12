@@ -19,6 +19,6 @@ const Main = styled.main`
   background-attachment: fixed;
   @media screen and (max-width: ${({ theme }) => theme.deviceSize.tablet}) {
     background-size: 250%;
-    background-position: -50vh 30vh;
+    background-position: -60vh -30vh;
    }
 `;

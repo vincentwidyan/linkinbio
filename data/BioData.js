@@ -1,4 +1,4 @@
-// date: 1 Aug, 2022
+// date: 12 Sep, 2024
 const bioData = [
     {
         name: '@vincentwidyan',
@@ -7,7 +7,7 @@ const bioData = [
         titleImg: false,
         avatar: '/avatar.png',
         nftAvatar: false,
-        description: '❣️ Love creating visually appealing spreadsheet',
+        description: '❣️ Love creating aesthetic spreadsheet templates',
         descShow: true,
         subdesc: 'Follow for more!',
         subdescShow: true,
@@ -15,8 +15,8 @@ const bioData = [
         newProduct: true,
         freelanceUrl: 'https://www.upwork.com/freelancers/~01eb071ae0a15f03f8',
         freelance: true,
-        author: 'realvjy',
-        authorURL: 'https://twitter.com/realvjy',
+        author: 'vincentwidyan',
+        authorURL: 'https://github.com/vincentwidyan',
         footerText: 'template by'
     },
 ];

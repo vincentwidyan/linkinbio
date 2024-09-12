@@ -19,12 +19,12 @@ const Main = styled.main`
   background-attachment: scroll;
   @media screen and (max-width: ${({ theme }) => theme.deviceSize.tablet}) {
     background-size: 250%;
-    background-position: -40vh -50vh;
+    background-position: -60vh -30vh;
     background-attachment: scroll;
    }
     @media screen and (max-width: ${({ theme }) => theme.deviceSize.mobileL}) {
     background-size: 350%;
-    background-position: -50vh -40vh;
+    background-position: -50vh -20vh;
     background-attachment: scroll;
    }
     

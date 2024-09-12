@@ -16,9 +16,16 @@ const Main = styled.main`
   background: url('/bg.png') no-repeat;
   background-size: 100%;
   background-position: -50vh 10%;
-  background-attachment: fixed;
+  background-attachment: scroll;
   @media screen and (max-width: ${({ theme }) => theme.deviceSize.tablet}) {
     background-size: 250%;
-    background-position: -60vh -30vh;
+    background-position: -40vh -50vh;
+    background-attachment: scroll;
    }
+    @media screen and (max-width: ${({ theme }) => theme.deviceSize.mobileL}) {
+    background-size: 350%;
+    background-position: -50vh -40vh;
+    background-attachment: scroll;
+   }
+    
 `;

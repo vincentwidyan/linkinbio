@@ -74,8 +74,8 @@ const defaultTheme = {
     deviceSize: {
         mobileS: '320px',
         mobileM: '375px',
-        mobileL: '425px',
-        tablet: '768px',
+        mobileL: '544px',
+        tablet: '1190px',
         laptop: '1024px',
         laptopL: '1440px',
         desktop: '2560px'

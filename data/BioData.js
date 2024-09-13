@@ -11,7 +11,7 @@ const bioData = [
         descShow: true,
         subdesc: 'Follow for more!',
         subdescShow: true,
-        newProductUrl: 'https://erindatastudio.gumroad.com/l/alcgij',
+        newProductUrl: 'https://buymeacoffee.com/vincentwidyan/e/303242',
         newProduct: true,
         freelanceUrl: 'https://www.upwork.com/freelancers/~01eb071ae0a15f03f8',
         freelance: true,

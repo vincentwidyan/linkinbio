@@ -72,11 +72,11 @@ const webLinks = [
         on: false
     },
     {
-        title: 'Mastodon',
-        url: 'https://mastodon.online/@realvjy',
+        title: 'Tiktok',
+        url: 'https://www.tiktok.com/@vincentwidyan',
         type: 'social',
-        icon: '/mastodon.svg',
-        on: false
+        icon: '/tiktok.svg',
+        on: true
     },
     {
         title: 'Hive Social',

@@ -15,9 +15,9 @@ const bioData = [
         newProduct: true,
         freelanceUrl: 'https://www.upwork.com/freelancers/~01eb071ae0a15f03f8',
         freelance: true,
-        author: 'vincentwidyan',
+        author: '@vincentwidyan',
         authorURL: 'https://github.com/vincentwidyan',
-        footerText: 'template by'
+        footerText: ''
     },
 ];
 

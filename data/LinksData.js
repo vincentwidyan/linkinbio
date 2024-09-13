@@ -145,10 +145,10 @@ const webLinks = [
 
     {
         title: 'Buy Me a Coffee',
-        url: 'https://www.buymeacoffee.com/realvjy',
-        type: 'other',
+        url: 'https://buymeacoffee.com/vincentwidyan',
+        type: 'featured',
         icon: '/bmc.png',
-        on: false
+        on: true
     },
 
     {

@@ -24,10 +24,10 @@ const webLinks = [
     },
     {
         title: 'Medium',
-        url: 'https://medium.com/@realvjy',
+        url: 'https://medium.com/@vincentwidyan',
         type: 'social',
         icon: '/medium.svg',
-        on: false
+        on: true
     },
     {
         title: 'Github',
@@ -123,17 +123,17 @@ const webLinks = [
     },
     {
         title: 'Blog (soon)',
-        url: 'https://github.com/vincentwidyan',
+        url: 'https://medium.com/@vincentwidyan',
         type: 'featured',
         icon: '/blog.png',
         on: true
     },
     {
-        title: 'Documentation',
-        url: 'https://github.com/realvjy/nxt-lnk#nxt-lnk',
+        title: 'Writeups & Tutorial',
+        url: 'https://buymeacoffee.com/vincentwidyan/posts',
         type: 'featured',
-        icon: '/doc.png',
-        on: false
+        icon: '/bmc.png',
+        on: true
     },
     {
         title: 'Github',

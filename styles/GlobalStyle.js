@@ -29,7 +29,7 @@ body.light-mode {
   
   --white: #FFFFFF;
   --white20: #ecedee;
-  --black: #11181C;
+  --black: #0A0A0D;
   --light-gray: #858585;
   --gray: #687076;
   --light-black: rgba(0,0,0,.05);

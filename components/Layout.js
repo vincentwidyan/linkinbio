@@ -15,7 +15,7 @@ const Main = styled.main`
   min-height: 100vh;
   background: url('/bg.png') no-repeat;
   background-size: 100%;
-  background-position: -50vh 10%;
+  background-position: -10vh 0%;
   background-attachment: scroll;
   @media screen and (max-width: ${({ theme }) => theme.deviceSize.tablet}) {
     background-size: 250%;

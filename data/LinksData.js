@@ -27,7 +27,7 @@ const webLinks = [
         url: 'https://medium.com/@vincentwidyan',
         type: 'social',
         icon: '/medium.svg',
-        on: true
+        on: false
     },
     {
         title: 'Github',
@@ -40,7 +40,7 @@ const webLinks = [
         title: 'Pinterest',
         url: 'https://id.pinterest.com/vincentwwidyan',
         type: 'social',
-        icon: '/pinterest.svg',
+        icon: '/pinterest3.png',
         on: true
     },
     {
@@ -75,7 +75,7 @@ const webLinks = [
         title: 'Tiktok',
         url: 'https://www.tiktok.com/@vincentwidyan',
         type: 'social',
-        icon: '/tiktok.svg',
+        icon: '/tik-tok.png',
         on: true
     },
     {

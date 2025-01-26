@@ -42,6 +42,9 @@ const Links = () => {
 
   const newProduct = bioData[0].newProduct; // checking for newProduct flag true false
   const newProductUrl = bioData[0].newProductUrl; // get product url if available
+  const newProduct2 = bioData[0].newProduct2; // checking for newProduct flag true false
+  const newProductUrl2 = bioData[0].newProductUrl2; // get product url if available
+
   const freelance = bioData[0].freelance
   const freelanceUrl = bioData[0].freelanceUrl;
 
@@ -101,8 +104,9 @@ const Links = () => {
 
             {/* Bio Section */}
             <LinkBio>
-              {description && <h1>{descriptionText} </h1>}
               {subdesc && <h4>{subdescText}</h4>}
+              {description && <h1>{descriptionText} </h1>}
+              
             </LinkBio>
             {/* End Bio Section */}
 
@@ -137,6 +141,15 @@ const Links = () => {
                           <img
                               src={'/newproduct.png'}
                               className="newproduct"
+                          />
+                        </a>
+                      </NewSection> : ''
+                      }
+                      {(newProduct2) ? <NewSection>
+                        <a href={newProductUrl2} target="_blank" rel="noreferrer">
+                          <img
+                              src={'/newproduct2.png'}
+                              className="newproduct2"
                           />
                         </a>
                       </NewSection> : ''
@@ -294,7 +307,7 @@ const Title = styled.div`
       font-weight: 700;
       
       letter-spacing: -1px;
-      background: linear-gradient(90deg, #4AB1F1 5.71%, #566CEC 33.77%, #D749AF 61.82%, #FF7C51 91.21%);
+      background: ${({ theme }) => theme.text.primary};
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -303,7 +316,7 @@ const Title = styled.div`
       }
     }
     h3{
-      margin-top:6px;
+      margin-top:0px;
       font-size: 18px;
       font-weight: 500;
       letter-spacing: -.7px;
@@ -311,7 +324,7 @@ const Title = styled.div`
       opacity: .5;
       @media screen and (max-width: ${({ theme }) => theme.deviceSize.tablet}) {
         font-size: 15px;
-        margin-top:2px;
+        margin-top:0px;
       }
     }
     
@@ -327,7 +340,7 @@ const Title = styled.div`
       margin-top: 6px;
       margin-bottom: 6px;
       @media screen and (max-width: ${({ theme }) => theme.deviceSize.tablet}) {
-        height: 26px;
+        height: 10px;
       }
     }
 `
@@ -343,7 +356,7 @@ const LinkBio = styled.div`
       padding: 0 20px;
       @media screen and (max-width: ${({ theme }) => theme.deviceSize.tablet}) {
         font-size: 18px;
-        line-height: 26px;
+        line-height: 35px;
         padding: 0 8px;
 
       }
@@ -365,9 +378,9 @@ const LinkBio = styled.div`
       letter-spacing: -.5px;
       margin: 10px 0;
       color: ${({ theme }) => theme.text.secondary};
-      font-weight: 500;
+      font-weight: 700;
         @media screen and (max-width: ${({ theme }) => theme.deviceSize.tablet}) {
-          font-size: 15px;
+          font-size: 18px;
           padding: 0 20px;
           line-height: 24px;
         }
@@ -426,7 +439,7 @@ const LinkSection = styled.div`
     padding: 12px 0;
     display: flex;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 500px;
     flex-direction: column;
     &.social{
       max-width: max-content;
@@ -453,7 +466,7 @@ const LinkSection = styled.div`
 `
 
 const LinkBox = styled.div`
-    padding: 18px 20px;
+    padding: 12px 20px;
     border-radius: 12px;
     margin: 8px 18px;
     border: 1px solid ${({ theme }) => theme.bg.secondary};
@@ -517,10 +530,10 @@ const LinkBox = styled.div`
 `
 const LinkTitle = styled.div`
   display: flex;
-  font-size: 18px;
+  font-size: 16px;
   align-items: center;
     @media screen and (max-width: ${({ theme }) => theme.deviceSize.tablet}) {
-      font-size: 14px;
+      font-size: 16px;
     }
     img{
       height: 20px;

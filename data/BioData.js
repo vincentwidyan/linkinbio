@@ -7,7 +7,7 @@ const bioData = [
         titleImg: false,
         avatar: '/avatar.png',
         nftAvatar: false,
-        description: '⭐️ Love creating aesthetic spreadsheet templates to support daily work usage ⭐️',
+        description: '✨ Love creating aesthetic spreadsheet templates to support daily work usage ✨',
         descShow: true,
         subdesc: 'Excel Visualization Specialist',
         subdescShow: true,

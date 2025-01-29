@@ -5,7 +5,7 @@ const bioData = [
         username: '',
         url: 'https://vincentwidyan-linkinbio.vercel.app',
         titleImg: false,
-        avatar: '/avatar.png',
+        avatar: '/avatar6.png',
         nftAvatar: false,
         description: '✨ Love creating aesthetic spreadsheet templates to support daily work usage ✨',
         descShow: true,

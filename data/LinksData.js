@@ -45,7 +45,7 @@ const webLinks = [
     },
     {
         title: 'Youtube',
-        url: 'https://www.youtube.com/@vincentwidyan',
+        url: 'https://www.youtube.com/@erindatastudio',
         type: 'social',
         icon: '/youtube3.png',
         on: true

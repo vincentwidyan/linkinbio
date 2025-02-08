@@ -17,7 +17,7 @@ const webLinks = [
     },
     {
         title: 'Dribbble',
-        url: 'https://dribbble.com/realvjy',
+        url: 'https://dribbble.com/vincentwidyan',
         type: 'social',
         icon: '/dribbble.svg',
         on: false
@@ -45,7 +45,7 @@ const webLinks = [
     },
     {
         title: 'Youtube',
-        url: 'https://www.youtube.com/@erindatastudio',
+        url: 'https://www.youtube.com/@vincentwidyan',
         type: 'social',
         icon: '/youtube3.png',
         on: true
@@ -56,6 +56,13 @@ const webLinks = [
         type: 'social',
         icon: '/figma.svg',
         on: false
+    },
+    {
+        title: 'Upwork',
+        url: 'https://figma.com/@realvjy',
+        type: 'social',
+        icon: '/upwork.svg',
+        on: true
     },
     {
         title: 'Behance',

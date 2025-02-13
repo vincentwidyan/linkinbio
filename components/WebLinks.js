@@ -145,15 +145,7 @@ const Links = () => {
                         </a>
                       </NewSection> : ''
                       }
-                      {(newProduct2) ? <NewSection>
-                        <a href={newProductUrl2} target="_blank" rel="noreferrer">
-                          <img
-                              src={'/newproduct2_2.png'}
-                              className="newproduct2"
-                          />
-                        </a>
-                      </NewSection> : ''
-                      }
+              
                       {/* End Biodata.js, You can move this section anywhere */}
                       {
                         featured.map((i) => {

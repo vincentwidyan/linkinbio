@@ -34,7 +34,7 @@ const webLinks = [
         url: 'https://github.com/vincentwidyan',
         type: 'social',
         icon: '/github3.png',
-        on: true
+        on: false
     },
     {
         title: 'Pinterest',
@@ -62,7 +62,7 @@ const webLinks = [
         url: 'https://figma.com/@realvjy',
         type: 'social',
         icon: '/upwork.svg',
-        on: true
+        on: false
     },
     {
         title: 'Behance',
@@ -129,10 +129,10 @@ const webLinks = [
         on: true
     },
     {
-        title: 'Blog (soon)',
-        url: 'https://medium.com/@vincentwidyan',
+        title: 'Digital Garden',
+        url: 'https://vincentwidyan-notes.vercel.app',
         type: 'featured',
-        icon: '/blog.png',
+        icon: '/illlustrations.png',
         on: true
     },
     {
@@ -140,7 +140,7 @@ const webLinks = [
         url: 'https://buymeacoffee.com/vincentwidyan/posts',
         type: 'featured',
         icon: '/bmc.png',
-        on: true
+        on: false
     },
     {
         title: 'Github',

@@ -222,7 +222,7 @@ const Links = () => {
           </TopPart>
           <BottomPart>
             <LinkFoot>
-              <h4>{footerText} <a href={authorURL}>{author}</a></h4>All Icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+              <h4>{footerText} <a href={authorURL}>{author}</a></h4>
             </LinkFoot>
           </BottomPart>
 

@@ -12,7 +12,7 @@ const webLinks = [
         title: 'Instagram',
         url: 'https://www.instagram.com/erindatastudio/',
         type: 'social',
-        icon: '/instagram3.png',
+        icon: '/icons8-instagram-2.svg',
         on: true
     },
     {
@@ -41,13 +41,13 @@ const webLinks = [
         url: 'https://id.pinterest.com/vincentwwidyan',
         type: 'social',
         icon: '/pinterest.svg',
-        on: true
+        on: false
     },
     {
         title: 'Youtube',
         url: 'https://www.youtube.com/@vincentwidyan',
         type: 'social',
-        icon: '/youtube3.png',
+        icon: '/icons8-youtube.svg',
         on: true
     },
     {
@@ -82,7 +82,7 @@ const webLinks = [
         title: 'Tiktok',
         url: 'https://www.tiktok.com/@vincentwidyan',
         type: 'social',
-        icon: '/tiktok3.png',
+        icon: '/icons8-tiktok-2.svg',
         on: true
     },
     {

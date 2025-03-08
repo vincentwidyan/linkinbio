@@ -139,7 +139,7 @@ const Links = () => {
                       {(newProduct) ? <NewSection>
                         <a href={newProductUrl} target="_blank" rel="noreferrer">
                           <img
-                              src={'/newproduct1_3.png'}
+                              src={'/goodchart.png'}
                               className="newproduct"
                           />
                         </a>
@@ -222,7 +222,7 @@ const Links = () => {
           </TopPart>
           <BottomPart>
             <LinkFoot>
-              <h4>{footerText} <a href={authorURL}>{author}</a></h4>
+              <h4>{footerText} <a href={authorURL}>{author}</a></h4>All Icon by <a target="_blank" href="https://icons8.com">Icons8</a>
             </LinkFoot>
           </BottomPart>
 
@@ -295,7 +295,7 @@ const Title = styled.div`
     flex-direction: column;
     align-items: center;
     h1{
-      font-size: 24px;
+      font-size: 34px;
       font-weight: 700;
       
       letter-spacing: -1px;
@@ -343,7 +343,7 @@ const LinkBio = styled.div`
     h1{
       font-size: 18px;
       line-height: 30px;
-      font-weight: 500;
+      font-weight: 400;
       letter-spacing: -0.6px;
       padding: 0 20px;
       @media screen and (max-width: ${({ theme }) => theme.deviceSize.tablet}) {
@@ -370,7 +370,7 @@ const LinkBio = styled.div`
       letter-spacing: -.5px;
       margin: 10px 0;
       color: ${({ theme }) => theme.text.secondary};
-      font-weight: 700;
+      font-weight: 600;
         @media screen and (max-width: ${({ theme }) => theme.deviceSize.tablet}) {
           font-size: 18px;
           padding: 0 20px;
@@ -467,7 +467,7 @@ const LinkBox = styled.div`
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 600;
     letter-spacing: -.5px;
     position: relative;

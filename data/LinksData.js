@@ -130,7 +130,7 @@ const webLinks = [
     },
     {
         title: 'Digital Garden',
-        url: 'https://vincentwidyan-notes.vercel.app',
+        url: 'https://vincentwidyan.vercel.app/about/',
         type: 'featured',
         icon: '/illlustrations.png',
         on: true

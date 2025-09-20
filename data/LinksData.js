@@ -3,14 +3,14 @@ const webLinks = [
     // All social profile
     {
         title: 'Twitter',
-        url: 'https://twitter.com/realvjy',
+        url: 'https://x.com/goodchartdev?s=21',
         type: 'social',
         icon: '/twitter.svg',
-        on: false
+        on: true
     },
     {
         title: 'Instagram',
-        url: 'https://www.instagram.com/erindatastudio/',
+        url: 'https://www.instagram.com/goodchartdev/',
         type: 'social',
         icon: '/icons8-instagram-2.svg',
         on: true
@@ -45,7 +45,7 @@ const webLinks = [
     },
     {
         title: 'Youtube',
-        url: 'https://www.youtube.com/@vincentwidyan',
+        url: 'https://www.youtube.com/@goodchartdev',
         type: 'social',
         icon: '/icons8-youtube.svg',
         on: true
